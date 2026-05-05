@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  /* This links Tailwind's 'font-sans' to the Geist variable in your layout */
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  
+  /* Custom Professional Colors */
+  --color-brand-bg: #020617;
+  --color-brand-accent: #2563eb;
+
+}
+
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-custom-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+
+.animate-custom-marquee:hover {
+  animation-play-state: paused;
+}
+
+:root {
+  --background: #020617;
+  --foreground: #f8fafc;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+/* Fix the border issues seen in the screenshot */
+* {
+  border-color: initial;
+  border-style: none;
+}
+
+/* Standard Scrollbar Logic */
+:root {
+  scrollbar-color: #1e293b #020617; /* Firefox: [Thumb Color] [Track Color] */
+  scrollbar-width: thin; /* Firefox */
+}
+
+/* Chrome, Edge, and Safari (Webkit) */
+::-webkit-scrollbar {
+  width: 6px; /* Very thin width */
+}
+
+::-webkit-scrollbar-track {
+  background: #020617; /* Matches your brand-bg */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b; /* Subtle slate color */
+  border-radius: 10px;
+  border: 1px solid #020617; /* Adds a tiny gap around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb; /* High-visibility Blue on hover */
+}
