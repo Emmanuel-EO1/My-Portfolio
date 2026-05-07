@@ -72,6 +72,7 @@ CORS_ALLOWED_ORIGIN_REGEXES = [
     r"^https://my-portfolio-.*-emmanuel-eo1s-projects\.vercel\.app$",
 ]
 
+
 ROOT_URLCONF = 'core.urls'
 
 TEMPLATES = [
