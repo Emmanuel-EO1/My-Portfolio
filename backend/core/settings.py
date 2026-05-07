@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/6.0/ref/settings/
 """
 
 import os
+import re
 from pathlib import Path
 from dotenv import load_dotenv
 import dj_database_url
@@ -63,6 +64,10 @@ MIDDLEWARE = [
 
 cors_origins_str = os.getenv("CORS_ALLOWED_ORIGINS", "")
 CORS_ALLOWED_ORIGINS = [origin.strip() for origin in cors_origins_str.split(",") if origin]
+
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    r"^https://my-portfolio-.*-emmanuel-eo1s-projects\.vercel\.app$",
+]
 
 ROOT_URLCONF = 'core.urls'
 
