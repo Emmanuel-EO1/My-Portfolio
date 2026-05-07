@@ -30,7 +30,9 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'your_secret_key_here')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '*').split(',')
+# For ALLOWED_HOSTS
+allowed_hosts_str = os.getenv("ALLOWED_HOSTS", "")
+ALLOWED_HOSTS = [host.strip() for host in allowed_hosts_str.split(",") if host]
 
 
 # Application definition
@@ -59,7 +61,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = os.getenv('CORS_ALLOWED_ORIGINS', '').split(',')
+cors_origins_str = os.getenv("CORS_ALLOWED_ORIGINS", "")
+CORS_ALLOWED_ORIGINS = [origin.strip() for origin in cors_origins_str.split(",") if origin]
 
 ROOT_URLCONF = 'core.urls'
 
