@@ -69,7 +69,7 @@ cors_origins_str = os.getenv("CORS_ALLOWED_ORIGINS", "")
 CORS_ALLOWED_ORIGINS = [origin.strip() for origin in cors_origins_str.split(",") if origin]
 
 CORS_ALLOWED_ORIGIN_REGEXES = [
-    r"^https://my-portfolio-.*-emmanuel-eo1s-projects\.vercel\.app$",
+    r"^https:\/\/my-portfolio-.*\.vercel\.app$",
 ]
 
 
