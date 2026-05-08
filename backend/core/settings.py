@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'payments.apps.PaymentsConfig',
 ]
 
+
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
