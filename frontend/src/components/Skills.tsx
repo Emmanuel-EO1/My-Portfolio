@@ -7,19 +7,19 @@ const coreCapabilities = [
   {
     title: "System Architecture",
     icon: <Database className="w-6 h-6 text-blue-400" />,
-    desc: "I architect scalable, resilient systems from the ground up, focusing on the mechanical harmony between high-traffic backends and fluid frontends. My approach centers on modularity and security, ensuring that complex financial or real estate data flows are optimized for speed and reliability. I specialize in designing secure payment authentication layers and robust database schemas that act as the backbone for Software as a Service (SaaS) platforms, specifically tailored for the high-stakes energy and finance sectors."
+    desc: "I architect scalable, resilient systems from the ground up, focusing on the mechanical harmony between high-traffic backends and fluid frontends. My approach centers on modularity and security, ensuring that complex financial or real estate data flows are optimized for speed and reliability."
   },
   
   {
     title: "UI/UX Design & Frontend",
     icon: <Terminal className="w-6 h-6 text-purple-400" />,
-    desc: "I design interfaces that are not just visually striking but are psychologically intuitive. With 4+ years experience, my UI/UX philosophy focuses on accessibility and 'human-like' interaction, moving away from rigid, predictable patterns to create organic user journeys. Drawing from my work in real estate technology, I specialize in high-resolution visual storytelling. I solve critical frontend challenges such as optimizing property image sliders and ensuring crisp rendering at high resolutions, ensuring that the interface never distracts from the data."
+    desc: "I design interfaces that are not just visually striking but are psychologically intuitive. With 4+ years experience, my UI/UX philosophy focuses on accessibility and 'human-like' interaction, moving away from rigid, predictable patterns to create organic user journeys. Drawing from my work in real estate technology, I specialize in high-resolution visual storytelling."
   },
 
   {
-    title: "AI & Automation",
+    title: "Systems & Digitalization",
     icon: <Cpu className="w-6 h-6 text-emerald-400" />,
-    desc: "I apply automation principles to streamline professional workflows—from automated communication logs to managing technical inquiries, influenced by my professional service at SAC. Implementing neural networks and robotics control logic for MSc research."
+    desc: "I apply automation principles to streamline professional workflows—from automated communication logs to managing technical inquiries, influenced by my professional service at SAC."
   },
 
   {

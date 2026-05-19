@@ -2,6 +2,7 @@
 import { motion } from 'framer-motion';
 import TechStack from '@/components/TechStack';
 import Skills from '@/components/Skills';
+import AboutMe from '@/components/AboutMe';
 import ProjectGrid from '@/components/ProjectGrid';
 import LiveTransactions from '@/components/LiveTransactions';
 import Contact from '@/components/Contact';
@@ -39,8 +40,7 @@ export default function Home() {
           </h1>
 
           <p className="text-slate-400 text-lg md:text-xl max-w-xl leading-relaxed mb-10 font-light">
-            Fullstack Engineer & MSc candidate. I build robust Fintech backends 
-            and AI automation systems with a focus on precision.
+            Fullstack Engineer & MSc candidate. I build robust web applications with an uncompromising focus on precision.
           </p>
 
           <div className="flex flex-wrap gap-4 mb-20">
@@ -54,6 +54,7 @@ export default function Home() {
           </div>
 
           <TechStack />
+          <AboutMe />
           <Skills />
           <ProjectGrid />
           <LiveTransactions />
