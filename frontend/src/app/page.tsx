@@ -53,8 +53,8 @@ export default function Home() {
             </a>
           </div>
 
-          <TechStack />
           <AboutMe />
+          <TechStack />
           <Skills />
           <ProjectGrid />
           <LiveTransactions />
