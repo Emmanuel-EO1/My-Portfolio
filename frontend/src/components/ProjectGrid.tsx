@@ -24,8 +24,8 @@ const projects = [
         icon: <Database className="w-5 h-5 text-emerald-400" />,
         size: "small",
         heroImage: "/images/URC-hero1.png",
-        projectUrl: undefined, // Direct API layer
-        githubUrl: undefined, // Will add when deployed
+        projectUrl: "https://urc-nfol.onrender.com/", // Direct API layer
+        githubUrl: "https://github.com/Emmanuel-EO1/URC-Website", // Will add when deployed
     },
     {
         title: "Cineverse",
