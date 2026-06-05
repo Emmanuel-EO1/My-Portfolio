@@ -13,8 +13,8 @@ const projects = [
         icon: <ShieldCheck className="w-5 h-5 text-blue-400" />,
         size: "large",
         heroImage: "/images/payfusion-hero1.png", // Path to your live ledger screenshot
-        projectUrl: "https://my-portfolio-nine-rust-41.vercel.app/", // Direct API layer
-        githubUrl: "https://github.com/yourusername/payfusion", // Will add when deployed
+        projectUrl: "https://my-portfolio-nine-rust-41.vercel.app/", 
+        githubUrl: "https://github.com/yourusername/payfusion", 
     },
     {
         title: "URC Real Estate",
@@ -24,8 +24,8 @@ const projects = [
         icon: <Database className="w-5 h-5 text-emerald-400" />,
         size: "small",
         heroImage: "/images/URC-hero1.png",
-        projectUrl: "https://urc-nfol.onrender.com/", // Direct API layer
-        githubUrl: "https://github.com/Emmanuel-EO1/URC-Website", // Will add when deployed
+        projectUrl: "https://urc-nfol.onrender.com/",
+        githubUrl: "https://github.com/Emmanuel-EO1/URC-Website", 
     },
     {
         title: "Cineverse",
@@ -35,8 +35,8 @@ const projects = [
         icon: <Terminal className="w-5 h-5 text-purple-400" />,
         size: "small",  
         heroImage: "/images/CineVerse-hero1.png",
-        projectUrl: undefined, // Direct API layer
-        githubUrl: undefined, // Will add when deployed
+        projectUrl: "https://cineverse-v7h5.onrender.com/", 
+        githubUrl: "https://github.com/Emmanuel-EO1/CineVerse", 
     },
     {
         title: "Marienique",
